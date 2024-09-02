@@ -1,0 +1,120 @@
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Start Container */
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* End Container */
+/* Start Display None */
+.display-none {
+  display: none;
+}
+
+/* End Display None */
+/* Start Components */
+.special-heading {
+  color: #ebeced;
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: -3px;
+}
+.special-heading + p {
+  color: #797979;
+  margin-top: -30px;
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin-top: -20px;
+    font-size: 16px;
+  }
+}
+
+/* End Components */
+/* End Global Rules */
+div {
+  width: 300px;
+  margin: 20px auto;
+}
+div input {
+  background-color: #fbfbfb;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #d7d7d7;
+}
+div input:focus {
+  outline: none;
+}
+div .progress {
+  background-color: #2196f3 !important;
+  display: block;
+  width: 0%;
+  height: 2px;
+  position: relative;
+  top: -2px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+div .count {
+  display: block;
+  pad: 5px;
+  font-size: 12px;
+  text-align: right;
+}
+div .zero {
+  color: red;
+  font-weight: bold;
+}
+
+.progress {
+  background-color: #2196f3 !important;
+  display: block;
+  width: 0%;
+  height: 5px;
+  position: relative;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}/*# sourceMappingURL=homepage.css.map */

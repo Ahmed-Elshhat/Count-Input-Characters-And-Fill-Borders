@@ -1,0 +1,53 @@
+div {
+  width: 300px;
+  margin: 20px auto;
+  input {
+    background-color: #fbfbfb;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .progress {
+    background-color: #2196f3 !important;
+    display: block;
+    width: 0%;
+    height: 2px;
+    position: relative;
+    top: -2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+  .count {
+    display: block;
+    pad: 5px;
+    font-size: 12px;
+    text-align: right;
+  }
+
+  .zero {
+    color: red;
+    font-weight: bold;
+  }
+}
+.progress {
+  background-color: #2196f3 !important;
+  display: block;
+  width: 0%;
+  height: 5px;
+  position: relative;
+
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
